@@ -1,0 +1,95 @@
+# Control panel settings, Thu Sep 1 13:12:53 2022
+# MIPS, Version 1.95 March 11, 2022
+# Control panel file, /Users/gordonanderson/GAACE/Products/MIPS/MIPSapp/MIPS/2RF16DCB.cfg
+# MIPS: Version 1.223t,Aug 24,2022
+# MIPS: System has been up for at least: 35.63 minutes
+DCB offsets,1
+1-8 off,0.00
+RF channels,2
+RF 1,0.00,1000000,0.00,0.00,0.00
+RF 2,0.00,1000000,0.00,0.00,0.00
+DCB channels,8
+CH 1,0.00,0.01
+CH 2,0.00,-0.01
+CH 3,0.00,0.02
+CH 4,0.00,0.00
+CH 5,0.00,-0.02
+CH 6,0.00,0.01
+CH 7,0.00,-0.01
+CH 8,0.00,-0.04
+DCB enables,1
+DC bias enable,ON
+DIO channels,4
+DIO A,0
+DIO B,0
+DIO C,0
+DIO D,0
+Custom control channels,7
+Gen.Frame,400,400
+Gen.Cycles,15,15
+Gen.Scans,2,2
+Gen.Step,2,2
+Gen.Rupdate,1000,1000
+Ramp.Signal,CH 1,CH 1
+Ramp.Auto calculate rates,TRUE
+Timing control parameters
+TGevent,Timing generation,P1,2,-110,-2,10,-10
+TGevent,Timing generation,P2,,0,0,0,0
+TGevent,Timing generation,P3,,0,0,0,0
+TGevent,Timing generation,P4,,0,0,0,0
+TGevent,Timing generation,P5,,0,0,0,0
+TGevent,Timing generation,P6,,0,0,0,0
+TGevent,Timing generation,R1,1,100,Init,0,0
+TGevent,Timing generation,R1r,1,R1.Start,Ramp,2,0
+TGevent,Timing generation,R2,1,150,Init,100,0
+TGevent,Timing generation,R2r,1,R2.Start,Ramp,-10,0
+TGevent,Timing generation,R3,1,160,Init,0,0
+TGevent,Timing generation,R3r,1,R3.Start,Ramp,0,0
+TGframe,Timing generation,0,400,2,
+TGclock,Timing generation,656250
+TGtrigger,Timing generation,Software
+TGmux,Timing generation,None
+TGtable,Timing generation,STBLDAT;0:[A:3,65625:193:0:129:2,-72187:2:10,-73499:2:-10,98437:193:100:129:-10,105000:193:0:129:0,262500:];
+ExtClock,Timing generation,6135
+TimeMode,Timing generation,TRUE
+
+Ramp.T1,100
+Ramp.V1,0
+Ramp.R1,2.0000
+Ramp.T2,150
+Ramp.V2,100
+Ramp.R2,-10.0000
+Ramp.T3,160
+Ramp.V3,0
+Ramp.R3,0
+P1.Signal,CH 2
+P1.Delay,-110
+P1.Width,-2
+P1.On V,10.00
+P1.Off V,-10.00
+P2.Signal,
+P2.Delay,0
+P2.Width,0
+P2.On V,0
+P2.Off V,0
+P3.Signal,
+P3.Delay,0
+P3.Width,0
+P3.On V,0
+P3.Off V,0
+P4.Signal,
+P4.Delay,0
+P4.Width,0
+P4.On V,0
+P4.Off V,0
+P5.Signal,
+P5.Delay,0
+P5.Width,0
+P5.On V,0
+P5.Off V,0
+P6.Signal,
+P6.Delay,0
+P6.Width,0
+P6.On V,0
+P6.Off V,0
+TCparametersEnd
